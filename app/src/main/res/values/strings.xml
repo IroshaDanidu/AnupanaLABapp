@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Mobile App Lab</string>
+    <string name="title_activity_maps">Google Maps</string>
+    <string name="google_maps_key">YOUR_GOOGLE_MAPS_API_KEY</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_title">Welcome to Mobile App Lab</string>
+    <string name="course_subtitle">EEI4369 - Mobile Application Development</string>
+    <string name="btn_login">Login &amp; Database</string>
+    <string name="btn_maps">Google Maps</string>
+    <string name="btn_sensor">Temperature Sensor</string>
+    <string name="footer_text">Academic Year 2024/2025</string>
+
+    <!-- Login Activity -->
+    <string name="login_title">User Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="sid_display">Your SID: %1$s</string>
+    <string name="login_success">Login data saved successfully!</string>
+    <string name="login_failed">Failed to save login data</string>
+    <string name="fields_empty">Please fill all fields</string>
+
+    <!-- Maps Activity -->
+    <string name="maps_title">Location Search</string>
+    <string name="address_hint">Enter address (e.g., Colombo, Sri Lanka)</string>
+    <string name="show_location">Show Location</string>
+    <string name="sensor_ui">Sensor UI</string>
+    <string name="location_found">Location found and displayed</string>
+    <string name="address_not_found">Address not found. Try a more specific address.</string>
+    <string name="geocoding_error">Geocoding service not available. Check internet connection.</string>
+    <string name="enter_address">Please enter an address</string>
+
+    <!-- Sensor Activity -->
+    <string name="sensor_title">Temperature Monitor</string>
+    <string name="temperature_display">Current Temperature: %.1f°C</string>
+    <string name="threshold_display">Temperature Threshold: %.1f°C</string>
+    <string name="status_monitoring">Status: Monitoring...</string>
+    <string name="status_alert">🚨 ALERT: Temperature exceeded threshold! Audio playing...</string>
+    <string name="status_normal">✅ Status: Temperature normal. Monitoring...</string>
+    <string name="sensor_not_available">Temperature sensor not available. Using simulation for testing.</string>
+    <string name="sensor_found">Temperature sensor found. Real sensor data will be used.</string>
+    <string name="audio_ready">Audio system ready. Add temperature_alert.mp3 to res/raw/ for custom sound.</string>
+    <string name="audio_setup">Audio setup completed</string>
+    <string name="temperature_alert">🔊 TEMPERATURE ALERT! Threshold exceeded!</string>
+
+    <!-- Instructions -->
+    <string name="instructions_title">Instructions</string>
+    <string name="instruction_emulator">• For emulator: Use Extended Controls → Virtual Sensors → Temperature</string>
+    <string name="instruction_audio">• Audio alert plays when temperature exceeds threshold</string>
+    <string name="instruction_threshold">• Threshold based on last 2 digits of your SID</string>
+
+    <!-- Database -->
+    <string name="database_created">Database table created successfully</string>
+    <string name="database_upgraded">Database upgraded successfully</string>
+    <string name="data_inserted">User data inserted successfully</string>
+    <string name="data_insert_failed">Failed to insert user data</string>
+</resources>
